@@ -16,9 +16,9 @@ TaskFlow is a Single Page Application (SPA) designed to help users manage their 
 
 
 File sturture:
--Index.html
--style.css
--app.js
+- Index.html
+- style.css
+- app.js
 
  Technologies Used:
  -HTML 
