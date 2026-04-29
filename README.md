@@ -23,12 +23,12 @@ File sturture:
 
  Technologies Used:
  
- -HTML 
- -CSS  
- -Bootstrap  
- -JavaScrip
- -LocalStorage  
- -JSON
+ - HTML 
+ - CSS  
+ - Bootstrap  
+ - JavaScrip
+ - LocalStorage  
+ - JSON
   
  How It Works
  
