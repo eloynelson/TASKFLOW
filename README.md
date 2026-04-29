@@ -20,26 +20,42 @@ style.css
 app.js
 
  Technologies Used:
-- HTML 
-- CSS  
-- Bootstrap  
-- JavaScrip
-- LocalStorage  
-- JSON
+ HTML 
+ CSS  
+ Bootstrap  
+ JavaScrip
+ LocalStorage  
+ JSON
   
  How It Works
+Users enter a username to access the application  
+Tasks can be created with a name, date and priority  
+Tasks are displayed dynamically on the screen  
+Users can filter, search and update tasks  
+All data is saved locally using localStorage  
+Users can export and import their tasks using JSON file
 
-1. Users enter a username to access the application  
-2. Tasks can be created with a name, date and priority  
-3. Tasks are displayed dynamically on the screen  
-4. Users can filter, search and update tasks  
-5. All data is saved locally using localStorage  
-6. Users can export and import their tasks using JSON files  
 
----
+REQUIREMENTS:
+To use this application, the user will need:
+Localstorage support
+Modern webserver
 
-## 💾 Data Storage
-
+Data Storage
 TaskFlow uses the browser's localStorage to store user data. Each user has a separate task list saved using a unique key.
 
-Example:
+Example of the data:
+[
+{
+    "id": 123456,
+    "name": "TASK FOR READ ME",
+    "date": "2026-04-20",
+    "importance": "High",
+    "completed": false
+    
+  }
+]
+
+
+AUTHOR:ELOY FRANCISCO(2026)
+BSc Computer Science
