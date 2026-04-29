@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  background-color: #ffcd6a;
+  font-family: Arial, sans-serif;
+}
+
+.page-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.login-container {
+  height: 70vh;
+}
+
+.login-box {
+  width: 350px;
+  border-radius: 12px;
+}
+
+.intro-text {
+  margin-bottom: 20px;
+}
+
+#usernameInput {
+  text-align: left;
+}
+
+#startBtn {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 500;
+}
+
+#startBtn:hover {
+  background-color: #ffcd6a;
+  color: black;
+}
+
+.app-screen {
+  min-height: 100vh;
+  background-color: #ffcd6a;
+}
+
+.main-header {
+  height: 90px;
+  background-color: #f9bd44;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.header-button {
+  width: 220px;
+  position: relative;
+}
+
+#filterBtn {
+  background-color: #c87518;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#filterBtn:hover {
+  background-color: #ffe1a0;
+}
+
+.header-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.header-logo h1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  letter-spacing: 1px;
+}
+
+.header-user {
+  width: 220px;
+  text-align: right;
+}
+
+.header-user p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.main-content {
+  min-height: calc(100vh - 90px);
+  padding: 40px;
+}
+
+#logoutBtn {
+  margin-top: 5px;
+  background-color: white;
+  color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+#logoutBtn:hover {
+  background-color: #ffd28d;
+}
+
+.search-add-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+
+#searchTaskInput {
+  width: 400px;
+  background-color: white;
+  border: 1px solid #d8c7a7;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+
+#openTaskFormBtn,
+#exportBtn,
+#importBtn {
+  background-color: #c87518;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#openTaskFormBtn:hover,
+#exportBtn:hover,
+#importBtn:hover {
+  background-color: #a85f10;
+}
+
+.task-form-box {
+  width: 400px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-form-box h3 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+#addTaskBtn {
+  width: 100%;
+  background-color: #f9bd44;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+#addTaskBtn:hover {
+  background-color: #ffcd6a;
+  color: black;
+}
+
+.empty-message {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.empty-message p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.task-list {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.task-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-date-box {
+  width: 90px;
+  height: 80px;
+  border: 2px solid #f9bd44;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-day {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.task-month {
+  font-size: 12px;
+}
+
+.task-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.task-info h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.task-info p {
+  margin: 5px 0 0 0;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.pending-btn,
+.completed-btn,
+.edit-btn,
+.delete-btn {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.pending-btn,
+.edit-btn,
+.delete-btn {
+  background-color: #f9bd44;
+}
+
+.completed-btn {
+  background-color: green;
+}
+
+.low {
+  color: blue;
+  font-weight: 600;
+}
+
+.medium {
+  color: green;
+  font-weight: 600;
+}
+
+.high {
+  color: red;
+  font-weight: 600;
+}
+
+.filter-menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 170px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.filter-option {
+  width: 100%;
+  background-color: white;
+  border: none;
+  text-align: left;
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.filter-option:hover {
+  background-color: #ffd28d;
+  border-radius: 6px;
+}
+
+.filter-menu p {
+  margin: 5px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
