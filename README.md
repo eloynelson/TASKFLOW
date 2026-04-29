@@ -2,32 +2,32 @@ TaskFlow (Task Management SPA)
 
 TaskFlow is a Single Page Application (SPA) designed to help users manage their daily tasks and improve productivity. The application allows the users to create, edit, delete and track tasks efficiently through a clean and intuitive interface.The app uses localstorage to store data and supports JSON import and export for data management. 
 
- Features
-
-- Add, edit and delete tasks  
+ Features:
+- Add, edit and delete tasks (Task management)  
 - Mark tasks as completed or pending  
 - Set priority levels (Low, Medium, High)  
 - Filter tasks by status, date and priority  
-- Search tasks by name  
-- Multi-user support (each user has separate tasks)  
-- Data persistence using localStorage  
+- Search function  
+- Multi-user support   
+- Data is stored using localStorage  
 - Export tasks to JSON file  
-- Import tasks from JSON file  
+- Import tasks from JSON file
 
----
 
-## 🛠️ Technologies Used
+File sturture:
+Index.html
+style.css
+app.js
 
-- HTML5  
-- CSS3  
-- Bootstrap 5  
-- JavaScript (Vanilla JS)  
+ Technologies Used:
+- HTML 
+- CSS  
+- Bootstrap  
+- JavaScrip
 - LocalStorage  
-- JSON  
-
----
-
-## 📂 How It Works
+- JSON
+  
+ How It Works
 
 1. Users enter a username to access the application  
 2. Tasks can be created with a name, date and priority  
