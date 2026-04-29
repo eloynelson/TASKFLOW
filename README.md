@@ -44,8 +44,8 @@ Requirements :
 
 To use this application, the user will need:
 
-- Localstorage support
-- Modern webserver
+-  Localstorage support
+-  Modern webserver
 
 Data Storage
 
@@ -64,5 +64,7 @@ Example of the data:
 ]
 
 
+
 AUTHOR:ELOY FRANCISCO(2026)
+
 BSc Computer Science
