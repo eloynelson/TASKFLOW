@@ -16,11 +16,13 @@ TaskFlow is a Single Page Application (SPA) designed to help users manage their 
 
 
 File sturture:
+
 - Index.html
 - style.css
 - app.js
 
  Technologies Used:
+ 
  -HTML 
  -CSS  
  -Bootstrap  
@@ -30,20 +32,23 @@ File sturture:
   
  How It Works
  
-Users enter a username to access the application  
-Tasks can be created with a name, date and priority  
-Tasks are displayed dynamically on the screen  
-Users can filter, search and update tasks  
-All data is saved locally using localStorage  
-Users can export and import their tasks using JSON file
+- Users enter a username to access the application  
+- Tasks can be created with a name, date and priority  
+- Tasks are displayed dynamically on the screen  
+- Users can filter, search and update tasks  
+- All data is saved locally using localStorage  
+- Users can export and import their tasks using JSON file
 
 
-REQUIREMENTS:
+Requirements :
+
 To use this application, the user will need:
-Localstorage support
-Modern webserver
+
+- Localstorage support
+- Modern webserver
 
 Data Storage
+
 TaskFlow uses the browser's localStorage to store user data. Each user has a separate task list saved using a unique key.
 
 Example of the data:
